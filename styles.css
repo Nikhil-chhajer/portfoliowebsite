@@ -324,45 +324,51 @@ display:none;
     transition: all 3s;
 }
 @media (max-width:1300px) {
- .hero-section{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: -1rem;
-    padding-bottom: 3rem;
- }   
- .hero-section-heading{
-    text-align: center;
-    margin: auto;
- }
- .hero-section-sub-heading{
-    text-align: center;
-    margin: auto;
- }
- .hero-section-description{
-    text-align: center;
-    margin: auto;
- }
- #btn{
-    display:none;
- }
- .hero-section-right {
-    scale: 0.7;
-    margin: 0 auto;
-  }
- .user-image{
-    margin-left: 45px;
- }
- #btn-bottom{
-    display: block;
-    margin-top: -7rem;
- }
- .faded-text {
-    display: none;
-  }
-  
-}
+    .container{
+        width: auto;
+    }
+    .hero-section{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-top: -1rem;
+       padding-bottom: 3rem;
+    }   
+    .hero-section-heading{
+       text-align: center;
+       margin: auto;
+    }
+    .hero-section-sub-heading{
+       text-align: center;
+       margin: auto;
+    }
+    .hero-section-description{
+       text-align: center;
+       margin: auto;
+    }
+    #btn{
+       display:none;
+    }
+    .hero-section-right {
+      margin-top:-6em;
+        scale:0.7;
+      
+     }
+   
+    #btn-bottom{
+       display: block;
+       margin-top: -7rem;
+        bottom:-150px;
+        left:140px;
+        scale:1.4;
+   
+    }
+    .faded-text {
+       display: none;
+     }
+     
+   }
 
 
 .project-section {
